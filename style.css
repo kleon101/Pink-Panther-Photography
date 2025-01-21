@@ -1,0 +1,1040 @@
+/* All references for code included in reference list */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Landing Page */
+
+/* Title */
+#title {
+    position: absolute; 
+	color: antiquewhite;
+    top: 5em; 
+    left: 6.5em; 
+	font-size: 5em; 
+    font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+
+/* Background */
+
+.first-half {
+	height: 100vh;
+    background-image: url('images/Landscape.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Nav bar */
+
+#nav-bar {
+	background: rgba(255, 183, 245, 0.75);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 1000;
+}
+
+#nav-bar ul {
+	display: flex;
+	justify-content: center; 
+}
+
+#nav-bar li {
+	list-style: none;
+}
+
+/* Nav-bar logo */
+#nav-bar .logo img {
+	width: 5em;
+	height: auto;
+}
+
+#nav-bar .logo {
+    float: left;
+	margin-right: 370px;
+}
+
+#nav-bar a {
+	display: block;
+	color: white;
+	padding: 2.1em 4.5em;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 1s ease;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav-bar a:hover {
+	background-color: white;
+	color: black;
+}
+
+#nav-bar .active {
+	background-color: white;
+	color: black;
+}
+
+#headline {
+	position: absolute; 
+	color: black;
+    top: 38em; 
+    left: 3em; 
+	font-size: 2em; 
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+#text {
+	position: absolute; 
+	color: black;
+    top: 55em; 
+    left: 4em; 
+	font-size: 1.5em; 
+    font-family: "Bebas Neue", sans-serif;
+	font-weight: 400;
+}
+
+#button-1 {
+	position: absolute;
+	top: 95em;
+	left: 6em;
+	width: 100%;
+}
+
+#button-1 a {
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: bold;
+	padding: 0.5em 1em;
+	border: 2px solid black;
+	border-radius: 5px;
+	transition: all 1s ease;
+}
+
+#button-1 a:hover {
+	background: black;
+	color:  rgb(242, 123, 255);
+}
+
+#button-1 a:active {
+	transform: scale(0.9);
+}
+
+#button-2 {
+	position: absolute;
+	top: 95em;
+	left: 18em;
+	width: 100%;
+}
+
+#button-2 a {
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: bold;
+	padding: 0.5em 1em;
+	border: 2px solid black;
+	border-radius: 5px;
+	transition: all 1s ease;
+}
+
+#button-2 a:hover {
+	background: black;
+	color: rgb(242, 123, 255);
+}
+
+#button-2 a:active {
+	transform: scale(0.9);
+}
+
+
+/* Container for images */
+
+#image-container {
+    display: flex;
+	position: absolute;
+    flex-direction: column;
+    align-items: flex-end;
+	top: 65em;
+	right: 1em;
+}
+
+.image {
+	margin-bottom: 1em;
+}
+
+.image img {
+    width: 500px;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+	#nav-bar {
+		width: 100%;
+	}
+
+	#nav-bar a {
+		display: flex;
+		justify-content: center; 
+		flex-basis: 50px;
+		padding: 1.5em 2em;
+		font-size: 0.8em;
+	}
+
+	/* Nav-bar logo */
+	#nav-bar .logo img {
+	width: 3.1em;
+	height: auto;
+}
+
+	#nav-bar .logo {
+		float: left;
+		margin-right: 50px;
+	}
+	
+	#title {
+        font-size: 3em; 
+        top: 5em; 
+        left: 30%;
+    }
+
+    #headline {
+        font-size: 1.5em; 
+        left: 2em; 
+		top: 110%;
+    }
+
+    #text {
+        font-size: 1em;  
+		top: 125%;
+        left: 2em; 
+    }
+
+    #button-1 {
+		position: static; 
+        margin-top: 20em; 
+        text-align: center; 
+	} 
+	
+	#button-2 {
+        position: static; 
+        margin-top: 2em; 
+        text-align: center; 
+    }
+
+    #image-container {
+        position: static; 
+        margin-top: 8em; 
+        align-items: center; 
+    }
+}
+
+/* About-Us page */
+
+#About-us {
+	position: absolute; 
+	color: black;
+    top: 2em; 
+    right: 9em; 
+	font-size: 4em; 
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.Panther {
+	float: top;
+	width: 80%;
+	height: auto;
+}
+
+.about-section {
+	position: absolute;
+	width: 46%;
+	top: 28%;
+	right: 3%;
+	background-color: white;
+}
+#about-text {
+    font-size: 1em;
+	font-family: "__Rubik_b1ad1b,__Rubik_Fallback_b1ad1b";
+	font-weight: 400;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Party {
+	position: absolute;
+	width: 50%;
+	top: 28%;
+}
+
+#socials-container {
+    display: flex;
+	position: absolute;
+    flex-direction: row;
+	align-items: center;
+	padding-top: 20px;
+	top: 40em;
+	left: 50em;
+}
+
+.image-link {
+    display: inline-block;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer; 
+}
+
+.socials {
+	display: inline-block;
+	margin: 0.5em 0.5em; 
+}
+
+.socials img {
+    width: 30%;
+    height: auto;
+	transition: transform 0.3s ease;
+}
+
+.socials:hover img {
+    transform: scale(1.3);
+}
+
+.Panther,
+.Party {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+	border-radius: 10px;
+}
+
+.Panther:hover,
+.Party:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	
+}
+
+@media only screen and (max-width: 600px) {
+
+	.about-section {
+		width: 90%;
+		top: 35%;
+		
+	}
+
+	.Panther {
+		width: 90%;
+	}
+
+    #socials-container {
+        display: flex;
+        justify-content: space-around;
+		position: static;
+        align-items: center;
+		flex-direction: row;
+        padding-top: 700px;  
+		margin-left: 50px;   
+    }
+
+	.Party {
+		position: static;
+		width: 100%;
+		top: 130%;
+	}
+}
+
+/* Contact Page */
+
+/* Background */
+body#Contact-background {
+    background-image: url('images/background2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+#Contact-Us {
+	position: absolute; 
+	color: white;
+    top: 2em;
+	left: 38%;
+	font-size: 4em; 
+    font-family: "Josefin Sans", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    #Contact-Us {
+        font-size: 3em; 
+		left: 30%;
+    }
+
+	#About-us {
+		font-size: 3em; 
+		top: 10%;
+		left: 40%;
+	}
+}
+
+#contact-form fieldset {
+    border: none;
+	margin-bottom: 8px;
+}
+/* Form container */
+#contact-form {
+    background-color: #f9f9f9;
+    padding: 40px;
+	margin: 250px auto 20px;
+    max-width: 900px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+	font-family: "Comfortaa", sans-serif;
+}
+
+/* Form field */
+.form-item {
+    margin-bottom: 20px;
+}
+
+.form-item label {
+    display: block;
+    margin-bottom: 8px;
+	font-weight: bold;
+    color: #333;
+}
+
+legend {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+
+.form-element input[type="text"],
+.form-element select,
+.form-element textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+	font-size: 16px;
+    color: #666;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+#submit button {
+    background-color: rgba(255, 183, 245, 0.75);
+    color: #fff;
+	width: 100%;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	font-size: large;
+	font-weight: bold;
+}
+
+#submit button:hover {
+    background-color: hotpink; 
+	color: #333;
+}
+
+/* Socials Page */
+
+#Social-title {
+	position: absolute; 
+	color: black;
+    top: 3em;
+	left: 42%;
+	font-size: 4em; 
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#social-subtitle {
+	position: absolute; 
+	color: black;
+    top: 41%;
+	left: 30%;
+	font-size: 2em; 
+    font-family: "Quicksand", sans-serif;
+}
+
+#Latest-posts {
+	position: absolute; 
+	color: black;
+    top: 105%;
+	left: 37%;
+	font-size: 3em; 
+    font-family: "Quicksand", sans-serif;
+}
+
+#socials-container2 {
+    display: flex;
+	position: absolute;
+    flex-direction: row;
+	align-items: center;
+	padding-top: 20px;
+	top: 30em;
+	left: 15em;
+}
+
+.image-link {
+    display: inline-block;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer; 
+}
+
+.socials {
+	display: inline-block;
+	margin: 0.5em 0.5em; 
+}
+
+.socials img {
+    width: 30%;
+    height: auto;
+	transition: transform 0.3s ease;
+}
+
+.socials:hover img {
+    transform: scale(1.3);
+}
+
+.image-link .social-text-insta {
+    position: absolute;
+    bottom: 100%;
+    left: -5%;
+	font-size: 3em;
+	font-weight: bold;
+    /* transform: translateX(-50%); */
+    background-color: rgba(255, 183, 245, 0.75);
+	font-family: "Quicksand", sans-serif;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-link:hover .social-text-insta {
+    opacity: 1;
+}
+
+.image-link .social-text-X {
+	position: absolute;
+    bottom: 100%;
+    left: 22%;
+	font-size: 3em;
+	font-weight: bold;
+    /* transform: translateX(-50%); */
+    background-color: rgba(255, 183, 245, 0.75);
+	font-family: "Quicksand", sans-serif;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-link:hover .social-text-X {
+    opacity: 1;
+}
+
+.image-link .social-text-TT {
+    position: absolute;
+    bottom: 100%;
+    left: 72%;
+	font-size: 3em;
+	font-weight: bold;
+    /* transform: translateX(-50%); */
+    background-color: rgba(255, 183, 245, 0.75);
+	font-family: "Quicksand", sans-serif;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-link:hover .social-text-TT {
+    opacity: 1;
+}
+
+.image-link .social-text-YT {
+    position: absolute;
+    bottom: 100%;
+    left: 45%;
+	font-size: 3em;
+	font-weight: bold;
+    /* transform: translateX(-50%); */
+    background-color: rgba(255, 183, 245, 0.75);
+	font-family: "Quicksand", sans-serif;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-link:hover .social-text-YT {
+    opacity: 1;
+}
+
+.Latestposts-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+	margin-top: 70%;
+	background-color: rgba(255, 183, 245, 0.75);
+}
+.block {
+	width: 50%; 
+	margin-bottom: 20px; 
+	display: flex;
+	align-items: center;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.block img {
+	max-width: 45%;
+	height: auto;
+	margin-right: 20px; 
+}
+
+.block p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333; 
+	font-family: "Oswald", sans-serif;
+  	font-optical-sizing: auto;
+}
+
+.block strong {
+    font-weight: bold;
+    color: black; 
+	font-size: 1.5em;
+}
+
+/* Hover effect */
+.block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media only screen and (max-width: 600px) {
+	#Social-title {
+		position: absolute; 
+		color: black;
+		top: 2em;
+		left: 34%;
+		font-size: 4em; 
+	}
+
+	#social-subtitle {
+		position: absolute; 
+		color: black;
+		top: 50%;
+		left: 22%;
+		font-size: 1.2em; 
+		
+	}
+
+	#Latest-posts {
+		position: absolute; 
+		color: black;
+		top: 105%;
+		left: 32%;
+		font-size: 2em; 
+
+	}
+
+	.Latestposts-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between; 
+		margin-top: 45%;
+	}
+
+	#socials-container2 {
+		display: flex;
+		position: static;
+		flex-direction: row;
+		align-items: center;
+		padding-top: 400px;
+		margin-left: 6em;
+	}
+
+	.image-link .social-text-YT {
+		position: absolute;
+		bottom: 100%;
+		left: 45%;
+		font-size: 2%;
+		font-weight: bold;
+		/* transform: translateX(-50%); */
+		background-color: rgba(255, 183, 245, 0.75);
+		font-family: "Quicksand", sans-serif;
+		color: white;
+		padding: 10px 20px;
+		border-radius: 5px;
+		opacity: 0;
+		transition: opacity 0.3s ease-in-out;
+	}
+	
+	.image-link:hover .social-text-YT {
+		opacity: 1;
+	}
+	
+    
+}
+
+/* Services Page */
+
+body#Services-background {
+    background-image: url('images/background2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+#Services-title {
+	position: absolute; 
+	color: white;
+    top: 3em;
+	left: 40%;
+	font-size: 4em; 
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.content-container1, .content-container2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+	font-family: "Quicksand", sans-serif;
+	background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-container1 {
+	margin-top: 25%;
+}
+.content-container2 {
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+
+.content-container1:hover, .content-container2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.text-content {
+    flex: 1;
+    max-width: 50%;
+	
+}
+
+.text-content h1 {
+    margin-bottom: 1em;;
+    font-size: 2.5em;
+    color: #333;
+	background-color: #f9f9f9;
+}
+
+.text-content p {
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #666;
+}
+
+.text-content p i {
+    color: #333;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+}
+
+.images-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.images-container img {
+    max-width: 350px;
+    height: auto;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.images-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.link-wrapper {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.content-container1, .content-container2 {
+		flex-direction: column;
+        align-items: flex-start;
+	}
+	.text-content, .images-container {
+        max-width: 100%;
+    }
+
+	.content-container1 {
+		margin-top: 60%;
+	}
+
+	#Services-title {
+		font-size: 3em;
+		left: 38%;
+	}
+
+}
+
+/* Sports/Events page */
+
+#Services-sport-title, #Services-events-title {
+	position: absolute; 
+	color: black;
+    top: 3em;
+	left: 35%;
+	font-size: 4em; 
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.sports-container, .events-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding-top: 30%; 
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px; 
+	background: #f8f9fa; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(255, 183, 245, 0.75); 
+    font-family: 'Roboto', sans-serif; 
+    color: #333; 
+}
+
+.text-content h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.text-content p:hover {
+    color: black; /* Darken text on hover */
+    transition: color 0.3s ease;
+}
+
+.video-container {
+    flex: 1;
+	border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(255, 183, 245, 0.75); 
+}
+
+.video-title {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600; 
+    font-size: 1em; 
+    color: #333; 
+    margin-top: 10px; 
+}
+
+.button-container {
+    margin-top: 50px; 
+	display: flex;
+	align-items: center;
+}
+
+#Connect-button, #Socials-button {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+	font-size: 1em;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: all 1s ease;
+    margin: 10px; 
+}
+
+#Connect-button:hover, #Socials-button:hover {
+    background: black;
+    color:  rgb(242, 123, 255);
+}
+
+#Connect-button:active, #Socials-button:active {
+    transform: scale(0.9);
+}
+
+
+.gallery-section {
+    text-align: center;
+    margin: 10px;
+}
+
+.heading-container {
+    width: 100vw; 
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background: #f8f9fa;
+    padding: 20px 0;
+    box-sizing: border-box; 
+    border: 2px solid  
+}
+
+
+.heading-container h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    color: black; 
+    margin: 0; 
+}
+
+
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 10px; 
+    margin: 20px 0; 
+}
+
+.gallery-item {
+    flex: 1 1 calc(33.333% - 20px); 
+    margin: 5px; 
+    box-sizing: border-box; 
+    overflow: hidden; 
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; 
+    display: block;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-content {
+    max-width: 65%;
+    max-height: 65%;
+}
+
+/* Event Services page */
+
+#Services-event-title {
+	position: absolute; 
+	color: black;
+    top: 3em;
+	left: 35%;
+	font-size: 4em; 
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.events-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding-top: 30%; /* Add space at the top */
+}
+ 
+
+@media (max-width: 600px) {
+    .gallery-item {
+        flex: 1 1 calc(50% - 10px); 
+    }
+	#Services-sport-title, #Services-event-title {
+        font-size: 2em;
+        left: 30%;
+        top: 4em;
+    }
+	.sports-container, .events-container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40%;
+    }
+	.text-content {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+	.video-container {
+        width: 100%;
+        box-shadow: none;
+    }
+	.button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+.gallery-item:hover {
+    transform: scale(1.1);
+} 
+
+
+
+
+
+
+
